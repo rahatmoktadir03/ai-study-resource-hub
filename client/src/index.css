@@ -1,0 +1,51 @@
+/* Global styles */
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to bottom right, #1c1c1c, #6f2c91);
+  background-size: cover; /* Make the background image cover the entire area */
+  color: #e0e0e0; /* Light text */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set the height to full viewport */
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 10px; /* Rounded corners */
+  backdrop-filter: blur(5px); /* Frosted glass effect */
+  animation: blink 1.5s infinite; /* Apply blinking animation */
+}
+
+* Title styles with cyan glow */
+.header h1 {
+  color: #00FFFF; /* Cyan color for the text */
+  text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF; /* Cyan glow effect */
+  margin: 0; /* Remove default margin */
+  font-size: 2.5em; /* Adjust font size */
+}
+
+/* Container styling */
+.container {
+  max-width: 800px; /* Set a maximum width */
+  margin: 100px auto; /* Center the container horizontally and add some space at the top */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for a futuristic look */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+}
+
+/* Blinking animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0.5; /* Half visible */
+  }
+}
+

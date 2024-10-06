@@ -1,0 +1,23 @@
+{
+  "name": "ai-study-resource-hub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.2",
+    "@mui/material": "^6.1.2",
+    "concurrently": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.14.0",
+    "firebase-admin": "^12.6.0",
+    "openai": "^4.67.1"
+  }
+}
